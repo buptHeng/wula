@@ -52,6 +52,13 @@
             margin-right: 1vw;
             transform: translateY(10%);
         }
+        .topic img :right{
+            width: 2vh;
+            height: 2vh;
+            margin-left: 1vw;
+            transform: translateY(10%);
+            float: right;
+        }
 
         .info-title {
             color: #888;
@@ -68,6 +75,11 @@
             background-color: white;
             text-align: center;
         }
+        .zhaopian {
+            height: 40vw;
+            width: 40vw;
+
+        } 
         
         .info-flash {
             width: 100vw;
@@ -166,8 +178,10 @@
     </div>
 
     <div class="content" id="content" style="display: none;">
-        <div class="up">
-            <div class="up-text">申请表单</div>
+        <div class="topic">
+            <div class="topic-text"><img src='dqbm.png' />当前部门：人工智能学院        
+            
+            </div>
         </div>
         <div class="topic">
             <div class="topic-text"><img src='biao_tou.png' />请假外出、返校权限查询</div>
@@ -177,28 +191,42 @@
                 <div class="info-title">姓名</div>
                 <div class="info-text" id="info-name">杨子亨</div>
             </div>
+
             <div class="info">
-                <div class="info-title">学院</div>
-                <div class="info-text" id="info-aca">人工智能学院</div>
+                <div class="info-title">照片</div>
+                <div class="QR-code"><img src='me.png' /></div>
+                    
+                
             </div>
+
+            
+
             <div class="info">
                 <div class="info-title"></div>
                 <div class="info-flash" id="info-flash" ><img src='flash.gif' width="200px" height="30px"/></div>
+            
+            </div>
+            
             <div class="info">
                 <div class="info-title">状态码</div>
                 <div class="QR-code"><img src='lv_ma.png' /></div>
             </div>
+
             <div class="info">
-                <div class="info-title">状态</div>
+                <div class="info-title"></div>
                 <div class="info-text permit" id="status">允许出校</div>
             </div>
             <div class="info">
                 <div class="info-title">学工号</div>
                 <div class="info-text" id="info-number">2021141018</div>
             </div>
-            <div class="info info-last">
+            <div class="info">
                 <div class="info-title">出入校时间</div>
                 <div class="info-text" id="time">2020-09-06 09:16:04</div>
+            </div>
+            <div class="info info-last">
+                <div class="info-title">学院</div>
+                <div class="info-text" id="info-aca">人工智能学院</div>
             </div>
         </div>
         <!-- footer使用固定布局 -->
